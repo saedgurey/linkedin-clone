@@ -8,6 +8,7 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
+# 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
 
 node_modules
 dist

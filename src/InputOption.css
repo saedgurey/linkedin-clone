@@ -7,19 +7,17 @@
   cursor: pointer;
 }
 
-.inputOption {
-  display: flex;
-  align-items: center;
-  margin-top: 15px;
-  color: gray;
-  padding: 10px;
-  cursor: pointer;
+.headerOption__title {
+  font-size: 12px;
+  font-weight: 400;
 }
 
-.inputOption:hover {
-  background-color: whitesmoke;
-  border-radius: 10px;
+.headerOption:hover {
+  color: black;
 }
-.inputOption h4 {
-  margin-left: 5px;
-}
+
+.headerOption__icon {
+  object-fit: contain;
+  height: 25px !important;
+  width: 25px !important;
+}  
