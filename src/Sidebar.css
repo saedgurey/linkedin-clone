@@ -33,6 +33,12 @@
   height: 80px;
 }
 
+@media (max-width: 500px) {
+  .sidebar {
+    display: none;
+  }
+}
+
 .sidebar__stats {
   padding: 10px;
   margin-bottom: 10px;

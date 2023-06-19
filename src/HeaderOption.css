@@ -21,3 +21,12 @@
   height: 25px !important;
   width: 25px !important;
 }
+@media only screen and (max-width: 500px) {
+  .headerOption__title {
+    display: none;
+  }
+.headerOption__icon{
+ 
+
+}
+}
