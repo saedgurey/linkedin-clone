@@ -38,6 +38,7 @@ const App = () => {
   return (
     <div className="app">
       <Header />
+      
       {!user ? (
          <Login/>
       ) : (
