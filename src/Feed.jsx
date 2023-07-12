@@ -8,7 +8,7 @@ import CalendarViewDayIcon from '@mui/icons-material/CalendarViewDay';
 import InputOption from './InputOption';
 import "./Feed.css"
 import Post from './Post';
-import { db } from './firebase';
+import { db } from './config/firebase';
 import firebase from 'firebase/compat/app';
 import { useSelector } from 'react-redux';
 import { selectUser } from './feature/userSlice';

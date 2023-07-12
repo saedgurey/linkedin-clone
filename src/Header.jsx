@@ -9,7 +9,7 @@ import NotificationsIcon from '@mui/icons-material/Notifications';
 import HeaderOption from './HeaderOption';
 import { useDispatch, useSelector } from 'react-redux';
 import { logout, selectUser } from './feature/userSlice';
-import { auth } from "./firebase";
+import { auth } from "./config/firebase";
 
 
 const Header = () => {

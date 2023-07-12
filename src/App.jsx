@@ -6,7 +6,7 @@ import "./App.css"
 import Feed from './Feed'
 import { useSelector, useDispatch } from 'react-redux'
 import { login, logout, selectUser } from './feature/userSlice'
-import { auth } from "./firebase";
+import { auth } from "./config/firebase";
 import Widgets from './Widgets'
 
 
@@ -38,7 +38,7 @@ const App = () => {
   return (
     <div className="app">
       <Header />
-      
+
       {!user ? (
          <Login/>
       ) : (
