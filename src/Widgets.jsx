@@ -1,6 +1,6 @@
 import React from 'react'
 import FiberManualRecordIcon from '@mui/icons-material/FiberManualRecord';
-import InfoIcon from '@mui/icons-material/info';
+import InfoIcon from '@mui/icons-material/Info';
 import "./Widgets.css"
 const Widgets = () => {
     const newsArticle = (heading, subtitle) => (
